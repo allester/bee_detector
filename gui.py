@@ -26,7 +26,7 @@ listbox.pack(side=tk.RIGHT)
 video_path = ""
 
 # Load the YOLOv8 model
-model = YOLO('runs/detect/yolov8n_bee6/weights/best.pt', cfg='default.yaml')
+model = YOLO('runs/detect/yolov8n_bee6/weights/best.pt')
 
 frames = []
 detection_frames = []
