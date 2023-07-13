@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['-', 'APISME', 'Bee']
+
+roboflow:
+  workspace: apisinaturalist2
+  project: apis_inaturalist_2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/apisinaturalist2/apis_inaturalist_2/dataset/1
