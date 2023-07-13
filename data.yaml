@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['apis', 'bombus']
+
+roboflow:
+  workspace: bee-yqwqk
+  project: big-bee
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bee-yqwqk/big-bee/dataset/2
