@@ -1,8 +1,8 @@
 
-Apis_Inaturalist_2 - v1 2023-06-08 2:25pm
+Big Bee - v2 2023-07-13 2:59pm
 ==============================
 
-This dataset was exported via roboflow.com on June 9, 2023 at 11:21 AM GMT
+This dataset was exported via roboflow.com on July 13, 2023 at 10:09 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,14 +17,13 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 20262 images.
-APISME are annotated in YOLOv8 format.
+The dataset includes 1782 images.
+Bee are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 640x640 (Stretch)
 
-The following augmentation was applied to create 3 versions of each source image:
-* Random brigthness adjustment of between -25 and +25 percent
-* Random Gaussian blur of between 0 and 1 pixels
+No image augmentation techniques were applied.
 
 
